@@ -1,0 +1,13 @@
+[package]
+name = "slint-debug"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+slint = { version = "1.8.0", features = ["backend-android-activity-06"] }
+
+[lib]
+crate-type = ["cdylib"]
+
+[build-dependencies]
+slint-build = "1.8.0"
